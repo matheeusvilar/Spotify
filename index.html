@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
@@ -14,8 +15,9 @@
             <div class="logo">
                 <a href="">
                     <img src="assets/icons/icons/logo-spotify.png" alt="Logo Spotify">
-                </a>
-                <div>
+                    </a>
+            </div>        
+                </a>               
                     <ul>
                         <li>
                             <a href="">
@@ -27,10 +29,23 @@
                             <span class="fa fa-search"></span>
                             <span>Buscar</span>
                         </a></li>
-                    </ul>
-                </div>
+                    </ul>              
             </div>
         </nav>
+
+        <div class="library">
+            <div class="library_content">
+                <button class="library_button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+
+            <section class="section-playlist">
+                <div class="section-playlist__content"></div>
+            </section>
+        </div>
     </div>
 </body>
 </html>
